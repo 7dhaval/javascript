@@ -73,4 +73,6 @@ var funexp = function sum(a,b){
  }
 
  var exp = funexp(5,5);
+ var expp = funexp(2,2)
  console.log(exp);
+ console.log(exp < expp);
