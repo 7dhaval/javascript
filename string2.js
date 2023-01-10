@@ -49,3 +49,56 @@
 // // let res = str.substr(7,-2); //negative value doesnot return any output
 // let res = str.substr(-4); //this will give output from tail end and output will be kiwi
 // console.log(res);
+
+
+//repacing String Content()
+//String.prototype.replace(searchfor, replacewith)
+//the replace() method replaces a specifed value
+//with another value in string 
+
+// let bio = `i am dhaval`;
+
+// let replacedata = bio.replace('dhaval','killua');
+// console.log(replacedata);
+
+//replace method is case sensitive
+//replace() method does not change the string
+// it is called on it returns new string
+// the first match
+
+//>>Extrecting String Characters
+
+//there are 3 methods for extracting string characters:
+//charAt(position)
+//charCodeAt(position)//the return unicode
+//Property access []
+
+//let str = "HELLO WORLD";
+// console.log(str.charAt(0));
+// console.log(str.charCodeAt(0));
+// console.log(str[1]);
+
+
+//other useful methods
+// let myname = "Dhaval Sinh";
+// console.log(myname.toUpperCase());
+// console.log(myname.toLowerCase());
+
+//the concat() method
+//the concat() joins two or more strings
+
+/* let fn = "dhaval";
+let ln = "sinh";
+let fnm = "    killua   "
+console.log(fn.concat(ln));
+console.log(fn.concat("",ln));
+console.log(fnm.trim()); */ //trim mrthod remove white space from both sides 
+
+//converting a string to an array
+// a string can be converted to an array with the split() method
+
+const txt = "a,b,c,d,e"; //string
+console.log(txt.split(",")); //split on commas
+console.log(txt.split(" ")); //split on spaces
+console.log(txt.split("|")); //split on pipe
+
