@@ -97,7 +97,7 @@ console.log(fnm.trim()); */ //trim mrthod remove white space from both sides
 //converting a string to an array
 // a string can be converted to an array with the split() method
 
-const txt = "a,b,c,d,e"; //string
+let txt = "a,b,c,d,e"; //string
 console.log(txt.split(",")); //split on commas
 console.log(txt.split(" ")); //split on spaces
 console.log(txt.split("|")); //split on pipe
