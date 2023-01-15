@@ -1,0 +1,25 @@
+<html>
+    <body>
+        <div class="main-div">
+            <div>
+                <p> Want to know my name</p>
+                <p id="show"></p>
+                <br>
+                <button id = "btn">click here</button>
+            </div>
+        </div>
+
+        <script>
+            const showname = document.querySelector('#show');
+            const btn = document.querySelector('#btn');
+
+            const show = () =>{
+                showname.innerHTML = "loading...."
+                setTimeout(() => {
+                    showname.innerHTML = 'Dhavalsinh'
+                },1000)
+            }
+            btn.addEventListener('click', show);
+        </script>
+    </body>
+</html>

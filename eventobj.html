@@ -1,0 +1,30 @@
+<html>
+    <body>
+        <div class="content">
+            <h1>lets see</h1>
+            <div class="button_container">
+                <div class="btn_su">
+                    <span class="su_btn_circle">
+
+                    </span>
+                    <a href="#" class="btn-su-inner" id="fourtway">
+                        <span class="btn-txt">
+                            Event listenner
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <script>
+            const fourtway = document.getElementById('fourtway');
+
+            const checkEvent = () => {
+                console.log(event);
+                console.log(event.target);
+                console.log(event.type);
+            }
+
+            fourtway.addEventListener('click', checkEvent);
+        </script>
+    </body>
+</html>
